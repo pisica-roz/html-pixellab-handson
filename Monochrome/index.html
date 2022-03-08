@@ -25,7 +25,7 @@
 <body>
   <header class="header">
     <section class="header-top">
-      <section class="header-contacts">
+      <section class="header-connect">
         <ul>
           <li>
             <a
@@ -79,12 +79,15 @@
           </li>
         </ul>
       </section>
-      <!-- /.header-contacts -->
+      <!-- /.header-connect./  /.changed from header-contacts to header-connect -->
 
       <section class="header-controls">
         <section class="header-search">
           <form>
-            <button>
+            <button
+              type="submit"
+              title="Search"
+            >
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
 
@@ -96,7 +99,7 @@
             >
           </form>
         </section>
-        <!-- /.header-search -->
+        <!-- /.header-search./  /.adaugat type&title la buton -->
 
         <section class="header-user-controls">
           <ul>
@@ -187,16 +190,8 @@
   <!-- /.header -->
 
   <main class="content">
-    <header class="content-header">
-      <div class="banner-main">
-        <div class="banner-main-content">
-          <h1>Monochrome</h1>
-        </div>
-        <!-- /.banner-main-content -->
-      </div>
-      <!-- /.banner-main -->
-    </header>
-    <!-- /.content-header -->
+    <header class="content-header"></header>
+    <!-- /.content-header/  /.killed banner-main -->
 
     <section class="content-main">
       <section class="home-catalog-preview">
@@ -241,11 +236,11 @@
               </h1>
             </section>
 
-            <footer class="product-tile-pricing">
+            <section class="product-tile-pricing">
               <h2>$425</h2>
-            </footer>
+            </section>
           </article>
-          <!-- /.product-tile -->
+          <!-- /.product-tile./  /.changed the footer (pricing) into a section, 4 all tiles  -->
 
           <article class="product-tile">
             <header>
@@ -283,9 +278,9 @@
               </h1>
             </section>
 
-            <footer class="product-tile-pricing">
+            <section class="product-tile-pricing">
               <h2>$425</h2>
-            </footer>
+            </section>
           </article>
           <!-- /.product-tile -->
 
@@ -325,9 +320,9 @@
               </h1>
             </section>
 
-            <footer class="product-tile-pricing">
+            <section class="product-tile-pricing">
               <h2>$425</h2>
-            </footer>
+            </section>
           </article>
           <!-- /.product-tile -->
 
@@ -367,9 +362,9 @@
               </h1>
             </section>
 
-            <footer class="product-tile-pricing">
+            <section class="product-tile-pricing">
               <h2>$425</h2>
-            </footer>
+            </section>
           </article>
           <!-- /.product-tile -->
         </section>
@@ -419,9 +414,9 @@
               </h1>
             </section>
 
-            <footer class="product-tile-pricing">
+            <section class="product-tile-pricing">
               <h2>$425</h2>
-            </footer>
+            </section>
           </article>
           <!-- /.product-tile -->
 
@@ -461,9 +456,9 @@
               </h1>
             </section>
 
-            <footer class="product-tile-pricing">
+            <section class="product-tile-pricing">
               <h2>$425</h2>
-            </footer>
+            </section>
           </article>
           <!-- /.product-tile -->
 
@@ -503,9 +498,9 @@
               </h1>
             </section>
 
-            <footer class="product-tile-pricing">
+            <section class="product-tile-pricing">
               <h2>$425</h2>
-            </footer>
+            </section>
           </article>
           <!-- /.product-tile -->
 
@@ -545,9 +540,9 @@
               </h1>
             </section>
 
-            <footer class="product-tile-pricing">
+            <section class="product-tile-pricing">
               <h2>$425</h2>
-            </footer>
+            </section>
           </article>
           <!-- /.product-tile -->
         </section>
@@ -556,16 +551,16 @@
       <!-- /.home-catalog-preview -->
 
       <section class="home-banner-body">
-        <div class="banner-body-image">
+        <aside class="banner-body-image">
           <picture>
             <img
               src="./images/Banners/banner2.png"
               alt="Monoch and personal devices"
             >
           </picture>
-        </div>
+        </aside>
 
-        <div class="banner-body-text">
+        <section class="banner-body-text">
           <h1>Watches for entrepreneurs</h1>
 
           <p>
@@ -583,9 +578,10 @@
             explorer of the truth, the master-builder of human happiness. No one
             rejects, dislikes, or avoids pleasure itself,because.
           </p>
-        </div>
+        </section>
       </section>
       <!-- /.home-banner-body -->
+      <!-- /.schimbat div'urile in aside & section -->
 
       <section class="home-catalog-preview">
         <header>
@@ -629,9 +625,9 @@
               </h1>
             </section>
 
-            <footer class="product-tile-pricing">
+            <section class="product-tile-pricing">
               <h2>$425</h2>
-            </footer>
+            </section>
           </article>
           <!-- /.product-tile -->
 
@@ -671,9 +667,9 @@
               </h1>
             </section>
 
-            <footer class="product-tile-pricing">
+            <section class="product-tile-pricing">
               <h2>$425</h2>
-            </footer>
+            </section>
           </article>
           <!-- /.product-tile -->
 
@@ -713,9 +709,9 @@
               </h1>
             </section>
 
-            <footer class="product-tile-pricing">
+            <section class="product-tile-pricing">
               <h2>$425</h2>
-            </footer>
+            </section>
           </article>
           <!-- /.product-tile -->
 
@@ -755,22 +751,22 @@
               </h1>
             </section>
 
-            <footer class="product-tile-pricing">
+            <section class="product-tile-pricing">
               <h2>$425</h2>
-            </footer>
+            </section>
           </article>
           <!-- /.product-tile -->
         </section>
         <!-- /.product-tiles -->
 
-        <footer>
+        <footer class="catalog-preview-cta">
           <a
             href=""
             title="View all"
           >View all</a>
         </footer>
       </section>
-      <!-- /.home-catalog-preview -->
+      <!-- /.home-catalog-preview./  /.adaugat class footerului -->
 
       <section class="home-catalog-preview">
         <header>
@@ -814,9 +810,9 @@
               </h1>
             </section>
 
-            <footer class="product-tile-pricing">
+            <section class="product-tile-pricing">
               <h2>$425</h2>
-            </footer>
+            </section>
           </article>
           <!-- /.product-tile -->
 
@@ -856,9 +852,9 @@
               </h1>
             </section>
 
-            <footer class="product-tile-pricing">
+            <section class="product-tile-pricing">
               <h2>$425</h2>
-            </footer>
+            </section>
           </article>
           <!-- /.product-tile -->
 
@@ -898,9 +894,9 @@
               </h1>
             </section>
 
-            <footer class="product-tile-pricing">
+            <section class="product-tile-pricing">
               <h2>$425</h2>
-            </footer>
+            </section>
           </article>
           <!-- /.product-tile -->
 
@@ -940,22 +936,22 @@
               </h1>
             </section>
 
-            <footer class="product-tile-pricing">
+            <section class="product-tile-pricing">
               <h2>$425</h2>
-            </footer>
+            </section>
           </article>
           <!-- /.product-tile -->
         </section>
         <!-- /.product-tiles -->
 
-        <footer>
+        <footer class="catalog-preview-cta">
           <a
             href=""
             title="View all"
           >View all</a>
         </footer>
       </section>
-      <!-- /.home-catalog-preview -->
+      <!-- /.home-catalog-preview./  /.also + class la footer -->
     </section>
     <!-- /.content-main -->
   </main>
@@ -966,55 +962,64 @@
       <ul>
         <li>
           <a
+            href=""
+            title="Call us"
+          >call us</a>
+        </li>
+
+        <li>
+          <a
             href="tel:+44 (0)10 2345 6789"
             title="Call us"
-          >
-            <i class="fa-solid fa-phone"></i>
-            +44 (0)10 2345 6789
-          </a>
+          >+44 (0)10 2345 6789</a>
         </li>
 
         <li>
           <a
             href="mailto:customercare@monochrome.com"
             title="Email customer care"
-          >
-            <i class="fa-solid fa-envelope"></i>
-            customercare@monochrome.com
-          </a>
+          >email customer care</a>
+        </li>
+
+        <li>
+          <a
+            href=""
+            title="See mobile version"
+          >see mobile version</a>
         </li>
       </ul>
     </section>
-    <!-- /.footer-contact -->
+    <!-- /.footer-contact.-->
+    <!-- /schimbat la elementele originale din design, fara icons -->
 
-    <section class="footer-middle">
+    <section class="footer-navs">
       <nav class="footer-nav">
         <ul>
           <li>
             <a
               href=""
-              title="style & fit advice"
+              title="Style & fit advice"
             >style & fit advice</a>
           </li>
 
           <li>
             <a
               href=""
-              title="faqs"
+              title="FAQS"
             >faqs</a>
           </li>
 
           <li>
             <a
               href=""
-              title="delivery"
+              title="Delivery"
             >delivery</a>
           </li>
 
           <li>
             <a
               href=""
-              title="exchanges & returns"
+              title="Exchanges & returns"
             >exchanges & returns</a>
           </li>
         </ul>
@@ -1023,38 +1028,39 @@
           <li>
             <a
               href=""
-              title="about us"
+              title="About us"
             >about us</a>
           </li>
 
           <li>
             <a
               href=""
-              title="careers"
+              title="Careers"
             >careers</a>
           </li>
 
           <li>
             <a
               href=""
-              title="affiliates"
+              title="Affiliates"
             >affiliates</a>
           </li>
 
           <li>
             <a
               href=""
-              title="advertising"
+              title="Advertising"
             >advertising</a>
           </li>
         </ul>
       </nav>
     </section>
     <!-- /.footer-middle -->
+    <!-- /schimbat class in footer-navs & revizuit titles, cu majuscule -->
 
-    <section class="footer-social">
-      <div class="footer-newsletter">
-        <h3>sign up for our newsletter</h3>
+    <section class="footer-connect">
+      <section class="footer-newsletter">
+        <h1>sign up for our newsletter</h1>
         <form method="post">
           <input
             type="email"
@@ -1069,10 +1075,11 @@
             title="Submit"
           >Submit</button>
         </form>
-      </div>
+      </section>
       <!-- /.footer-newsletter -->
+      <!-- /.from div to section & h3 to h1 -->
 
-      <div class="footer-social-media">
+      <section class="footer-social-media">
         <ul>
           <li>
             <a
@@ -1118,10 +1125,11 @@
             </a>
           </li>
         </ul>
-      </div>
+      </section>
       <!-- /.footer-social-media -->
+      <!-- /.from div to section -->
     </section>
-    <!-- footer-social -->
+    <!-- footer-social/  /.changed to footer connect-->
   </footer>
   <!-- /.footer -->
 </body>
